@@ -108,7 +108,7 @@ hello <%= data %>
 
 在 Controller 中渲染。
 ```typescript
-import { Inject, Provide } from '@midwayjs/decorator';
+import { Inject, Provide, Get } from '@midwayjs/decorator';
 import { Context } from '@midwayjs/koa';
 
 @Controller('/')
@@ -292,7 +292,7 @@ hi, {{ user }}
 
 在 Controller 中渲染。
 ```typescript
-import { Inject, Provide } from '@midwayjs/decorator';
+import { Inject, Provide, Get } from '@midwayjs/decorator';
 import { Context } from '@midwayjs/koa';
 
 @Controller('/')
